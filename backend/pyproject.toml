@@ -1,0 +1,18 @@
+[project]
+name = "teaverse-backend"
+version = "0.1.0"
+description = "TeaVerse 차 정보 AI 에이전트 백엔드 (로컬 FastAPI + Bedrock)"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115",
+    "uvicorn[standard]>=0.30",
+    "boto3>=1.35",
+    "python-jose[cryptography]>=3.3",
+    "httpx>=0.27",
+    "pydantic>=2.8",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0",
+]

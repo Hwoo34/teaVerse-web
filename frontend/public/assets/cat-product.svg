@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgPr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f3ddd3"/><stop offset="1" stop-color="#b5623f"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#bgPr)"/>
+  <circle cx="320" cy="200" r="80" fill="#8a3f22" opacity="0.18"/>
+  <!-- 자사호(다관) -->
+  <ellipse cx="200" cy="190" rx="70" ry="14" fill="#5a2716" opacity="0.25"/>
+  <path d="M150 150 q50 -46 100 0 q6 34 -10 44 q-40 18 -80 0 q-16 -10 -10 -44 Z" fill="#8a3f22"/>
+  <path d="M150 150 q50 -30 100 0" fill="#b5623f"/>
+  <!-- 뚜껑 -->
+  <ellipse cx="200" cy="150" rx="34" ry="10" fill="#a0522d"/>
+  <circle cx="200" cy="140" r="7" fill="#5a2716"/>
+  <!-- 손잡이/주둥이 -->
+  <path d="M250 156 q30 -2 30 26 q0 20 -22 20" stroke="#8a3f22" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M150 160 q-30 6 -34 30" stroke="#8a3f22" stroke-width="12" fill="none" stroke-linecap="round"/>
+</svg>

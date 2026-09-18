@@ -1,0 +1,92 @@
+[
+  {
+    "id": "exh-boseong-tea-festival",
+    "title": "보성 다향대축제",
+    "venue": "보성군 한국차문화공원 일대",
+    "city": "전라남도 보성",
+    "startDate": "2027-05-05",
+    "endDate": "2027-05-09",
+    "description": "국내 최대 규모의 녹차 축제. 차밭 트레킹, 찻잎 따기 체험, 전통 다도 시연, 차 산업 전시가 열린다. 매년 봄 햇차 수확 시기에 맞춰 개최된다.",
+    "url": "https://boseong.go.kr",
+    "sources": [
+      { "title": "보성군 문화관광", "url": "https://boseong.go.kr", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "exh-hadong-wild-tea",
+    "title": "하동 야생차문화축제",
+    "venue": "하동군 화개면 차 시배지 일원",
+    "city": "경상남도 하동",
+    "startDate": "2027-05-14",
+    "endDate": "2027-05-18",
+    "description": "국내 차 시배지로 알려진 하동에서 열리는 야생차 축제. 천년 차나무 탐방, 수제차 만들기, 다례 시연과 전국 차 품평회가 함께 진행된다.",
+    "url": "https://hadong.go.kr",
+    "sources": [
+      { "title": "하동군청", "url": "https://hadong.go.kr", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "exh-seoul-tea-fair",
+    "title": "서울 국제 차문화 대전 (T-Life)",
+    "venue": "코엑스(COEX) 전시장",
+    "city": "서울",
+    "startDate": "2027-07-02",
+    "endDate": "2027-07-05",
+    "description": "국내외 차 브랜드, 다구·다기 공방, 차 문화 단체가 참여하는 대규모 박람회. 티 소믈리에 세미나, 신진 도예 작가 부스, 시음 이벤트가 열린다.",
+    "url": "https://www.teaculture.co.kr",
+    "sources": [
+      { "title": "서울 국제 차문화 대전", "url": "https://www.teaculture.co.kr", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "exh-yixing-teapot-expo",
+    "title": "이싱 자사호 예술 박람회",
+    "venue": "이싱 도자기 문화 단지",
+    "city": "중국 장쑤성 이싱",
+    "startDate": "2027-09-20",
+    "endDate": "2027-09-25",
+    "description": "자사호의 본고장 이싱에서 열리는 자사(紫砂) 도예 박람회. 명장과 신진 작가의 자사호가 전시·판매되며, 흙 배합과 성형 기법을 소개하는 워크숍이 함께 열린다.",
+    "url": "https://en.wikipedia.org/wiki/Yixing_clay_teapot",
+    "sources": [
+      { "title": "Yixing clay teapot - Wikipedia", "url": "https://en.wikipedia.org/wiki/Yixing_clay_teapot", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "exh-museum-tea-culture",
+    "title": "한국 차문화 특별전: 다완의 미",
+    "venue": "국립중앙박물관 기획전시실",
+    "city": "서울",
+    "startDate": "2027-03-10",
+    "endDate": "2027-06-15",
+    "description": "고려·조선 시대 다완과 다구를 중심으로 한국 차문화의 역사를 조명하는 특별전. 분청사기 다완, 청자 찻잔 등 유물과 현대 작가의 재현 작품을 함께 전시한다.",
+    "url": "https://www.museum.go.kr",
+    "sources": [
+      { "title": "국립중앙박물관", "url": "https://www.museum.go.kr", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "exh-jeju-flower-tea",
+    "title": "제주 꽃차 & 허브 페어",
+    "venue": "제주국제컨벤션센터(ICC)",
+    "city": "제주",
+    "startDate": "2027-04-18",
+    "endDate": "2027-04-20",
+    "description": "제주에서 재배한 동백·유채·허브를 활용한 꽃차·블렌딩 티를 소개하는 소규모 페어. 꽃차 블렌딩 체험과 플로럴 티 파티 프로그램이 인기 있다.",
+    "url": "https://www.iccjeju.co.kr",
+    "sources": [
+      { "title": "제주국제컨벤션센터", "url": "https://www.iccjeju.co.kr", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "tea-green-nokcha",
+    "name": "녹차 (綠茶)",
+    "category": "한국차",
+    "origin": "대한민국 보성·하동·제주",
+    "description": "찻잎을 덖거나 쪄서 발효를 억제한 불발효차. 맑고 청량한 향과 은은한 감칠맛이 특징이며, 카테킨이 풍부하다. 한국에서는 곡우 전후 수확 시기에 따라 우전·세작·중작으로 등급을 나눈다.",
+    "brewing": { "temperatureC": 70, "timeSec": 90, "infusions": 3 },
+    "flavorNotes": ["풀향", "감칠맛", "산뜻함"],
+    "caffeine": "중간",
+    "imageUrl": "",
+    "sources": [
+      { "title": "Green tea - Wikipedia", "url": "https://en.wikipedia.org/wiki/Green_tea", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "tea-green-woojeon",
+    "name": "우전 (雨前)",
+    "category": "한국차",
+    "origin": "대한민국 하동·보성",
+    "description": "곡우(4월 20일경) 이전에 딴 어린 첫 순으로 만든 최고급 한국 녹차. 여린 새싹만 사용해 향이 섬세하고 단맛이 뛰어나며 생산량이 적어 귀하게 취급된다.",
+    "brewing": { "temperatureC": 60, "timeSec": 60, "infusions": 3 },
+    "flavorNotes": ["섬세한 단맛", "은은한 향", "부드러움"],
+    "caffeine": "중간",
+    "imageUrl": "",
+    "sources": [
+      { "title": "Korean tea - Wikipedia", "url": "https://en.wikipedia.org/wiki/Korean_tea", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "tea-oolong-tieguanyin",
+    "name": "철관음 (鐵觀音)",
+    "category": "중국차",
+    "origin": "중국 푸젠성 안시현",
+    "description": "부분 발효(반발효) 우롱차의 대표 품종. 난꽃 같은 화사한 향과 부드러운 목넘김이 특징이다. 여러 번 우려도 향이 지속되며, 발효·배전 정도에 따라 맛의 편차가 크다.",
+    "brewing": { "temperatureC": 95, "timeSec": 40, "infusions": 6 },
+    "flavorNotes": ["난꽃향", "부드러움", "달큰한 여운"],
+    "caffeine": "중간",
+    "imageUrl": "",
+    "sources": [
+      { "title": "Tieguanyin - Wikipedia", "url": "https://en.wikipedia.org/wiki/Tieguanyin", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "tea-puer-sheng",
+    "name": "보이차 생차 (普洱 生茶)",
+    "category": "중국차",
+    "origin": "중국 윈난성",
+    "description": "대엽종 찻잎을 햇볕에 말려 자연 후발효시키는 흑차의 일종. 생차는 시간이 지나며 맛이 깊어져 '마시는 골동품'으로 불린다. 숙성될수록 쓴맛이 줄고 단맛과 진한 향이 발달한다.",
+    "brewing": { "temperatureC": 95, "timeSec": 20, "infusions": 8 },
+    "flavorNotes": ["묵직함", "숙성된 나무향", "긴 여운"],
+    "caffeine": "높음",
+    "imageUrl": "",
+    "sources": [
+      { "title": "Pu'er tea - Wikipedia", "url": "https://en.wikipedia.org/wiki/Pu%27er_tea", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "tea-black-keemun",
+    "name": "기문홍차 (祁門紅茶)",
+    "category": "중국차",
+    "origin": "중국 안후이성 기문현",
+    "description": "세계 3대 홍차로 꼽히는 완전 발효차. 난초와 과일을 연상시키는 '기문향'과 장미 같은 화사한 향이 특징이며, 부드럽고 균형 잡힌 맛으로 잉글리시 블렌드에도 쓰인다.",
+    "brewing": { "temperatureC": 95, "timeSec": 180, "infusions": 3 },
+    "flavorNotes": ["과일향", "장미향", "부드러운 바디"],
+    "caffeine": "높음",
+    "imageUrl": "",
+    "sources": [
+      { "title": "Keemun - Wikipedia", "url": "https://en.wikipedia.org/wiki/Keemun", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "tea-white-baihao",
+    "name": "백호은침 (白毫銀針)",
+    "category": "중국차",
+    "origin": "중국 푸젠성 푸딩·정화",
+    "description": "가장 여린 새싹만으로 만든 최고급 백차. 최소한의 가공(위조·건조)만 거쳐 솜털이 은빛으로 덮여 있다. 맑고 섬세한 단맛과 꽃향이 나며 카페인이 상대적으로 낮다.",
+    "brewing": { "temperatureC": 80, "timeSec": 120, "infusions": 4 },
+    "flavorNotes": ["은은한 단맛", "건초향", "맑음"],
+    "caffeine": "낮음",
+    "imageUrl": "",
+    "sources": [
+      { "title": "White tea - Wikipedia", "url": "https://en.wikipedia.org/wiki/White_tea", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "tea-flower-chrysanthemum",
+    "name": "국화차 (菊花茶)",
+    "category": "꽃차",
+    "origin": "동아시아 전역",
+    "description": "말린 국화 꽃봉오리를 우려내는 대표적인 꽃차. 카페인이 없고 은은한 단향과 국화 특유의 개운함이 있다. 전통적으로 눈의 피로와 열을 내리는 데 좋다고 여겨진다.",
+    "brewing": { "temperatureC": 90, "timeSec": 180, "infusions": 3 },
+    "flavorNotes": ["국화향", "은은한 단맛", "개운함"],
+    "caffeine": "없음",
+    "imageUrl": "",
+    "sources": [
+      { "title": "Chrysanthemum tea - Wikipedia", "url": "https://en.wikipedia.org/wiki/Chrysanthemum_tea", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "tea-flower-osmanthus",
+    "name": "계화차 (桂花茶)",
+    "category": "꽃차",
+    "origin": "중국 구이린·항저우",
+    "description": "금목서(계화) 꽃을 사용한 꽃차. 살구와 복숭아를 연상시키는 달콤하고 진한 꽃향이 특징이다. 단독으로 우리거나 우롱차·녹차와 블렌딩해 향을 입히는 데 쓰인다.",
+    "brewing": { "temperatureC": 85, "timeSec": 150, "infusions": 3 },
+    "flavorNotes": ["살구향", "달콤한 꽃향", "부드러움"],
+    "caffeine": "없음",
+    "imageUrl": "",
+    "sources": [
+      { "title": "Osmanthus - Wikipedia", "url": "https://en.wikipedia.org/wiki/Osmanthus", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "tea-traditional-yujacha",
+    "name": "유자차 (柚子茶)",
+    "category": "전통차",
+    "origin": "대한민국 남해안(고흥·거제)",
+    "description": "유자를 설탕이나 꿀에 재워 만든 한국의 대표적인 전통 대용차. 찻잎이 아닌 과일을 우린 차로 비타민C가 풍부하고 겨울철 감기 예방 음료로 즐겨 마신다.",
+    "brewing": { "temperatureC": 90, "timeSec": 120, "infusions": 1 },
+    "flavorNotes": ["새콤달콤", "유자향", "따뜻함"],
+    "caffeine": "없음",
+    "imageUrl": "",
+    "sources": [
+      { "title": "Yuja-cha - Wikipedia", "url": "https://en.wikipedia.org/wiki/Yuja-cha", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "tea-traditional-daechucha",
+    "name": "대추차 (大棗茶)",
+    "category": "전통차",
+    "origin": "대한민국 경산·보은",
+    "description": "말린 대추를 오래 달여 만든 한국 전통 대용차. 붉고 진한 빛깔에 자연스러운 단맛이 있으며, 몸을 따뜻하게 하고 기력 보충에 좋다고 알려져 예로부터 보양 음료로 쓰였다.",
+    "brewing": { "temperatureC": 100, "timeSec": 1800, "infusions": 1 },
+    "flavorNotes": ["진한 단맛", "대추향", "구수함"],
+    "caffeine": "없음",
+    "imageUrl": "",
+    "sources": [
+      { "title": "Daechu-cha - Wikipedia", "url": "https://en.wikipedia.org/wiki/Daechu-cha", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  }
+]

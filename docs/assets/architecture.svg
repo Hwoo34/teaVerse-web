@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 430" font-family="'Apple SD Gothic Neo','Malgun Gothic',sans-serif">
+  <defs>
+    <linearGradient id="gBrowser" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3d8b5f"/><stop offset="1" stop-color="#2f6a49"/></linearGradient>
+    <linearGradient id="gAgent" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#244d38"/><stop offset="1" stop-color="#1b3a2b"/></linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8a949b"/>
+    </marker>
+    <style>
+      .lbl{font-size:15px;font-weight:700;fill:#fff;}
+      .sub{font-size:11px;fill:#dfeee6;}
+      .box{fill:#fff;stroke:#d8ded9;stroke-width:1.5;rx:12;}
+      .btit{font-size:13.5px;font-weight:700;fill:#1b3a2b;}
+      .bsub{font-size:10.5px;fill:#5f6b7a;}
+      .tag{font-size:10px;font-weight:700;fill:#7a5e18;}
+      .edge{stroke:#8a949b;stroke-width:1.6;fill:none;}
+      .edgelbl{font-size:10px;fill:#6b756c;}
+      .pill{fill:#e3f1e9;}
+      .pilltxt{font-size:10.5px;font-weight:600;fill:#2f6a49;}
+    </style>
+  </defs>
+
+  <!-- 브라우저 -->
+  <rect x="40" y="30" width="300" height="92" rx="14" fill="url(#gBrowser)"/>
+  <text x="60" y="60" class="lbl">🖥 브라우저 (React SPA)</text>
+  <text x="60" y="82" class="sub">커스텀 디자인시스템 · framer-motion</text>
+  <text x="60" y="102" class="sub">정보 페이지 + 플로팅 챗봇</text>
+
+  <!-- S3 -->
+  <rect x="40" y="165" width="140" height="70" rx="12" class="box"/>
+  <text x="56" y="193" class="btit">☁ Amazon S3</text>
+  <text x="56" y="212" class="bsub">정적 웹 호스팅</text>
+  <text x="56" y="227" class="bsub">/data/*.json</text>
+
+  <!-- Cognito -->
+  <rect x="210" y="165" width="130" height="70" rx="12" class="box"/>
+  <text x="226" y="193" class="btit">🔑 Cognito</text>
+  <text x="226" y="212" class="bsub">User Pool · JWT</text>
+  <text x="226" y="227" class="bsub">admin 그룹</text>
+
+  <!-- AgentCore -->
+  <rect x="410" y="30" width="220" height="92" rx="14" fill="url(#gAgent)"/>
+  <text x="430" y="58" class="lbl">🤖 AgentCore Runtime</text>
+  <text x="430" y="80" class="sub">Orchestrator 에이전트</text>
+  <text x="430" y="100" class="sub">가드레일 · 라우팅 · 합성</text>
+
+  <!-- 3 sub agents -->
+  <rect x="410" y="165" width="220" height="66" rx="12" class="box"/>
+  <text x="520" y="190" text-anchor="middle" class="btit">카테고리 QA 에이전트</text>
+  <text x="520" y="210" text-anchor="middle" class="bsub">tea · exhibitions · products · artists</text>
+  <text x="520" y="224" text-anchor="middle" class="bsub">데이터 조회 → 부족 시 웹 검색</text>
+
+  <!-- data + bedrock -->
+  <rect x="410" y="270" width="220" height="62" rx="12" class="box"/>
+  <text x="520" y="294" text-anchor="middle" class="btit">🗄 DynamoDB · 시드 · 웹검색</text>
+  <text x="520" y="314" text-anchor="middle" class="bsub">tea_content(30) · 출처 URL</text>
+
+  <!-- Bedrock -->
+  <rect x="700" y="165" width="260" height="167" rx="14" fill="#fbf6ea" stroke="#e6d2a0" stroke-width="1.5"/>
+  <text x="830" y="215" text-anchor="middle" class="btit" style="fill:#7a5e18">🧠 Amazon Bedrock</text>
+  <text x="830" y="240" text-anchor="middle" class="bsub">Claude Haiku 4.5 (기본)</text>
+  <text x="830" y="260" text-anchor="middle" class="bsub">Claude Sonnet 4.6 (상한)</text>
+  <rect x="750" y="278" width="160" height="26" rx="13" fill="#f3ddd3"/>
+  <text x="830" y="295" text-anchor="middle" class="tag" style="fill:#8a3f22">Opus 이상 미사용 (비용)</text>
+
+  <!-- guardrail note -->
+  <rect x="700" y="42" width="260" height="70" rx="12" fill="#e3f1e9"/>
+  <text x="720" y="68" class="btit" style="fill:#2f6a49">🛡 가드레일 · 권한</text>
+  <text x="720" y="87" class="bsub">차 무관 질문 거절</text>
+  <text x="720" y="102" class="bsub">admin만 데이터 수집 명령</text>
+
+  <!-- edges -->
+  <!-- browser -> S3 -->
+  <path class="edge" d="M110 122 V165" marker-end="url(#arrow)"/>
+  <text x="118" y="150" class="edgelbl">정적 자산</text>
+  <!-- browser -> cognito -->
+  <path class="edge" d="M250 122 V165" marker-end="url(#arrow)"/>
+  <text x="258" y="150" class="edgelbl">로그인</text>
+  <!-- browser -> agentcore (JWT) -->
+  <path class="edge" d="M340 70 H410" marker-end="url(#arrow)"/>
+  <text x="352" y="62" class="edgelbl">챗봇 · JWT(Bearer)</text>
+  <!-- cognito -> agentcore (verify) -->
+  <path class="edge" d="M340 200 H372 V90 H410" marker-end="url(#arrow)"/>
+  <text x="348" y="120" class="edgelbl">JWT 검증</text>
+  <!-- agentcore -> QA -->
+  <path class="edge" d="M520 122 V165" marker-end="url(#arrow)"/>
+  <!-- QA -> data -->
+  <path class="edge" d="M520 231 V270" marker-end="url(#arrow)"/>
+  <!-- QA -> bedrock -->
+  <path class="edge" d="M630 198 H700" marker-end="url(#arrow)"/>
+  <text x="638" y="190" class="edgelbl">추론</text>
+  <!-- agentcore -> bedrock (top) -->
+  <path class="edge" d="M630 76 H700" marker-end="url(#arrow)"/>
+
+  <!-- flow strip -->
+  <g transform="translate(40,360)">
+    <rect x="0" y="0" width="920" height="52" rx="12" fill="#f5f0e6"/>
+    <text x="16" y="22" style="font-size:11px;font-weight:700;fill:#2f6a49">처리 흐름</text>
+    <g transform="translate(16,30)">
+      <g><rect class="pill" x="0" y="0" width="110" height="20" rx="10"/><text class="pilltxt" x="55" y="14" text-anchor="middle">사용자 질문</text></g>
+      <text x="118" y="14" fill="#c8a24a" font-weight="800">→</text>
+      <g><rect class="pill" x="132" y="0" width="90" height="20" rx="10"/><text class="pilltxt" x="177" y="14" text-anchor="middle">JWT 인증</text></g>
+      <text x="230" y="14" fill="#c8a24a" font-weight="800">→</text>
+      <g><rect class="pill" x="244" y="0" width="110" height="20" rx="10"/><text class="pilltxt" x="299" y="14" text-anchor="middle">가드레일 분류</text></g>
+      <text x="362" y="14" fill="#c8a24a" font-weight="800">→</text>
+      <g><rect class="pill" x="376" y="0" width="110" height="20" rx="10"/><text class="pilltxt" x="431" y="14" text-anchor="middle">카테고리 QA</text></g>
+      <text x="494" y="14" fill="#c8a24a" font-weight="800">→</text>
+      <g><rect class="pill" x="508" y="0" width="130" height="20" rx="10"/><text class="pilltxt" x="573" y="14" text-anchor="middle">DB/웹 근거+출처</text></g>
+      <text x="646" y="14" fill="#c8a24a" font-weight="800">→</text>
+      <g><rect class="pill" x="660" y="0" width="80" height="20" rx="10"/><text class="pilltxt" x="700" y="14" text-anchor="middle">답변</text></g>
+    </g>
+  </g>
+</svg>

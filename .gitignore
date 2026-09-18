@@ -1,0 +1,59 @@
+# === 보안: 자격증명/비밀 절대 커밋 금지 ===
+.auth/
+pwd.txt
+docker/.env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+aws-credentials*
+**/secrets.*
+
+# === Node ===
+node_modules/
+dist/
+dist-ssr/
+build/
+.vite/
+*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Python ===
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.uv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# === IDE / OS ===
+.DS_Store
+.idea/
+*.swp
+Thumbs.db
+
+# === 빌드 산출물 / 배포 ===
+frontend/dist/
+*.zip
+
+# === 로그 ===
+*.log
+logs/
+
+# === infra 출력물(리소스 ID 등) ===
+infra/cognito_output.env
+infra/*_output.env
+infra/*_arn.txt
+infra/lambda_url.txt
+
+# === 중앙 설정(실제 값) — 커밋 금지 ===
+config/project.env
+
+# === 개인 산출물(리포트: 실명/실제 URL 포함) — 공개 레포 제외 ===
+docs/report/

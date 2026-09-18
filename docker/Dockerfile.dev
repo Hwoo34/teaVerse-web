@@ -1,0 +1,49 @@
+# 개발용 통합 이미지: Node 20 + Python 3.12 + AWS CLI v2 + git + uv
+# 프론트엔드(React/Vite) 빌드와 백엔드(Python/AgentCore) 개발, AWS 배포 작업을 한 컨테이너에서 수행.
+FROM node:20-bookworm
+
+ARG TARGETARCH
+
+ENV DEBIAN_FRONTEND=noninteractive \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1
+
+# 기본 도구 + Python 3
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        git \
+        curl \
+        unzip \
+        zip \
+        ca-certificates \
+        jq \
+        less \
+        groff \
+        python3 \
+        python3-pip \
+        python3-venv \
+    && rm -rf /var/lib/apt/lists/*
+
+# AWS CLI v2 (arch에 맞게 설치)
+RUN set -eux; \
+    case "${TARGETARCH}" in \
+      arm64) AWS_ARCH="aarch64" ;; \
+      amd64) AWS_ARCH="x86_64" ;; \
+      *) AWS_ARCH="x86_64" ;; \
+    esac; \
+    curl -fsSL "https://awscli.amazonaws.com/awscli-exe-linux-${AWS_ARCH}.zip" -o /tmp/awscliv2.zip; \
+    unzip -q /tmp/awscliv2.zip -d /tmp; \
+    /tmp/aws/install; \
+    rm -rf /tmp/aws /tmp/awscliv2.zip; \
+    aws --version
+
+# uv / uvx (빠른 파이썬 패키지 관리자)
+RUN curl -LsSf https://astral.sh/uv/install.sh | sh
+ENV PATH="/root/.local/bin:${PATH}"
+
+WORKDIR /workspace
+
+# npm 전역 캐시 등을 위한 편의 설정
+ENV npm_config_fund=false \
+    npm_config_audit=false
+
+CMD ["sleep", "infinity"]

@@ -1,0 +1,148 @@
+[
+  {
+    "id": "prod-yixing-zisha-teapot",
+    "name": "이싱 자사호 (紫砂壺) 표준형 130ml",
+    "type": "자사호",
+    "price": 85000,
+    "currency": "KRW",
+    "vendor": "다예방",
+    "url": "https://en.wikipedia.org/wiki/Yixing_clay_teapot",
+    "imageUrl": "",
+    "rating": 4.7,
+    "reviewSummary": "보이차·우롱차용으로 인기. 사용할수록 길이 들며 차향을 잘 머금는다는 평. 입문자에게는 용량과 물 빠짐이 무난하다는 반응.",
+    "sentiment": { "pos": 82, "neu": 13, "neg": 5 },
+    "popularity": 95,
+    "sources": [
+      { "title": "Yixing clay teapot - Wikipedia", "url": "https://en.wikipedia.org/wiki/Yixing_clay_teapot", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "prod-gaiwan-porcelain",
+    "name": "백자 개완 (蓋碗) 110ml",
+    "type": "다기",
+    "price": 32000,
+    "currency": "KRW",
+    "vendor": "차생활",
+    "url": "https://en.wikipedia.org/wiki/Gaiwan",
+    "imageUrl": "",
+    "rating": 4.6,
+    "reviewSummary": "향차·녹차 시음에 두루 쓰기 좋다는 평가. 냄새가 배지 않아 여러 차를 번갈아 우리기 좋으나, 뜨거울 때 잡기 어렵다는 의견도 있음.",
+    "sentiment": { "pos": 78, "neu": 16, "neg": 6 },
+    "popularity": 88,
+    "sources": [
+      { "title": "Gaiwan - Wikipedia", "url": "https://en.wikipedia.org/wiki/Gaiwan", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "prod-cha-hai-pitcher",
+    "name": "유리 숙우 (熟盂/차해) 200ml",
+    "type": "다구",
+    "price": 18000,
+    "currency": "KRW",
+    "vendor": "다예방",
+    "url": "",
+    "imageUrl": "",
+    "rating": 4.5,
+    "reviewSummary": "찻물 농도를 고르게 맞춰준다는 실용성으로 호평. 유리라 탕색을 보기 좋으나 열충격에 주의해야 한다는 후기.",
+    "sentiment": { "pos": 74, "neu": 20, "neg": 6 },
+    "popularity": 70,
+    "sources": [],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "prod-celadon-teacup-set",
+    "name": "청자 찻잔 세트 (2인)",
+    "type": "다기",
+    "price": 56000,
+    "currency": "KRW",
+    "vendor": "고려도예",
+    "url": "",
+    "imageUrl": "",
+    "rating": 4.8,
+    "reviewSummary": "은은한 비취색과 손맛이 좋다는 평이 다수. 선물용으로 인기가 높고, 얇아 파손 주의가 필요하다는 의견.",
+    "sentiment": { "pos": 85, "neu": 11, "neg": 4 },
+    "popularity": 80,
+    "sources": [],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "prod-cast-iron-tetsubin",
+    "name": "무쇠 주전자 테츠빈 (鉄瓶) 600ml",
+    "type": "다구",
+    "price": 145000,
+    "currency": "KRW",
+    "vendor": "일다구",
+    "url": "https://en.wikipedia.org/wiki/Tetsubin",
+    "imageUrl": "",
+    "rating": 4.6,
+    "reviewSummary": "물맛이 부드러워진다는 후기와 보온성에 대한 만족도가 높음. 관리(녹 방지)가 번거롭다는 점이 단점으로 지적됨.",
+    "sentiment": { "pos": 72, "neu": 18, "neg": 10 },
+    "popularity": 65,
+    "sources": [
+      { "title": "Tetsubin - Wikipedia", "url": "https://en.wikipedia.org/wiki/Tetsubin", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "prod-matcha-chawan",
+    "name": "말차 다완 (茶碗) 400ml",
+    "type": "다기",
+    "price": 48000,
+    "currency": "KRW",
+    "vendor": "차생활",
+    "url": "https://en.wikipedia.org/wiki/Chawan",
+    "imageUrl": "",
+    "rating": 4.7,
+    "reviewSummary": "말차 격불에 넉넉한 크기로 호평. 굽이 안정적이고 손에 잘 맞는다는 평가가 많음.",
+    "sentiment": { "pos": 80, "neu": 15, "neg": 5 },
+    "popularity": 77,
+    "sources": [
+      { "title": "Chawan - Wikipedia", "url": "https://en.wikipedia.org/wiki/Chawan", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "prod-bamboo-chasen",
+    "name": "대나무 차선 (茶筅) 100본립",
+    "type": "다구",
+    "price": 22000,
+    "currency": "KRW",
+    "vendor": "일다구",
+    "url": "https://en.wikipedia.org/wiki/Chasen",
+    "imageUrl": "",
+    "rating": 4.5,
+    "reviewSummary": "말차 거품이 곱게 난다는 실사용 후기. 소모품 특성상 관리와 보관법에 대한 문의가 많음.",
+    "sentiment": { "pos": 76, "neu": 18, "neg": 6 },
+    "popularity": 68,
+    "sources": [
+      { "title": "Chasen - Wikipedia", "url": "https://en.wikipedia.org/wiki/Chasen", "type": "db" }
+    ],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  },
+  {
+    "id": "prod-tea-tray-wood",
+    "name": "원목 차판 (茶盤) 대형",
+    "type": "다구",
+    "price": 98000,
+    "currency": "KRW",
+    "vendor": "다예방",
+    "url": "",
+    "imageUrl": "",
+    "rating": 4.4,
+    "reviewSummary": "물 빠짐과 정리가 편해 공부차에 적합하다는 평. 크기가 커서 공간을 차지한다는 의견.",
+    "sentiment": { "pos": 70, "neu": 22, "neg": 8 },
+    "popularity": 60,
+    "sources": [],
+    "lastUpdatedAt": "2026-09-18T00:00:00Z",
+    "sourceType": "db"
+  }
+]

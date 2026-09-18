@@ -1,0 +1,30 @@
+.login-page {
+  position: relative; min-height: calc(100vh - var(--nav-h));
+  display: flex; align-items: center; justify-content: center; padding: 60px 20px; overflow: hidden;
+}
+.login-bg { position: absolute; inset: 0; background-size: cover; background-position: center; }
+.login-overlay { position: absolute; inset: 0; background: linear-gradient(135deg, rgba(27,58,43,.7), rgba(47,106,73,.5)); }
+
+.login-card {
+  position: relative; z-index: 2; width: 100%; max-width: 420px;
+  background: rgba(255,255,255,.9); backdrop-filter: blur(18px);
+  border: 1px solid rgba(255,255,255,.6); border-radius: var(--radius-lg);
+  padding: 40px 36px; box-shadow: var(--shadow-lg);
+}
+.login-logo {
+  font-family: var(--font-serif); font-weight: 700; font-size: 1.5rem; color: var(--tea-green-900);
+  display: flex; align-items: center; gap: 8px; justify-content: center; margin-bottom: 20px;
+}
+.login-card h2 { text-align: center; font-size: 1.6rem; }
+.login-sub { text-align: center; color: var(--ink-500); font-size: 0.9rem; margin: 10px 0 24px; }
+
+.login-hint { background: var(--tea-green-100); color: var(--tea-green-800); border-radius: var(--radius-sm); padding: 10px 14px; font-size: 0.85rem; margin-bottom: 16px; }
+.login-error { background: #fbe9e3; color: #a5321a; border-radius: var(--radius-sm); padding: 10px 14px; font-size: 0.88rem; margin-bottom: 16px; }
+.login-success { background: var(--tea-green-100); color: var(--tea-green-800); border-radius: var(--radius-sm); padding: 14px; text-align: center; margin: 16px 0 24px; }
+
+.login-field { display: block; margin-bottom: 16px; }
+.login-field span { display: block; font-size: 0.85rem; font-weight: 600; color: var(--ink-700); margin-bottom: 7px; }
+
+.login-submit { width: 100%; margin-top: 8px; }
+.login-link { display: block; width: 100%; text-align: center; margin-top: 14px; background: none; border: none; color: var(--tea-green-600); font-size: 0.9rem; cursor: pointer; }
+.login-link:hover { color: var(--tea-green-800); text-decoration: underline; }

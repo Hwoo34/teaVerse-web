@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bgAr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e3f1e9"/><stop offset="1" stop-color="#c8a24a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="260" fill="url(#bgAr)"/>
+  <circle cx="300" cy="70" r="60" fill="#3d8b5f" opacity="0.2"/>
+  <!-- 물레 위 도자기 빚는 손 형상 -->
+  <ellipse cx="200" cy="200" rx="86" ry="18" fill="#244d38" opacity="0.15"/>
+  <rect x="150" y="196" width="100" height="10" rx="5" fill="#8a3f22"/>
+  <path d="M168 196 q0 -60 32 -60 q32 0 32 60 Z" fill="#2f6a49"/>
+  <path d="M176 150 q24 -20 48 0" stroke="#e3f1e9" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- 손 -->
+  <path d="M150 140 q22 -10 30 6" stroke="#b5623f" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M250 140 q-22 -10 -30 6" stroke="#b5623f" stroke-width="12" fill="none" stroke-linecap="round"/>
+</svg>

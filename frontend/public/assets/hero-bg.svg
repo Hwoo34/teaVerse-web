@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 720" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#244d38"/>
+      <stop offset="0.55" stop-color="#2f6a49"/>
+      <stop offset="1" stop-color="#3d8b5f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.28" r="0.5">
+      <stop offset="0" stop-color="#9ed3b4" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#9ed3b4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="hill1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b3a2b"/>
+      <stop offset="1" stop-color="#244d38"/>
+    </linearGradient>
+    <linearGradient id="hill2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2f6a49"/>
+      <stop offset="1" stop-color="#3d8b5f"/>
+    </linearGradient>
+  </defs>
+  <rect width="1440" height="720" fill="url(#sky)"/>
+  <rect width="1440" height="720" fill="url(#glow)"/>
+  <!-- 태양/달 -->
+  <circle cx="1120" cy="180" r="90" fill="#e6d2a0" opacity="0.85"/>
+  <circle cx="1120" cy="180" r="130" fill="#e6d2a0" opacity="0.12"/>
+  <!-- 차밭 언덕(계단식) -->
+  <path d="M0 520 Q 360 440 720 500 T 1440 470 V720 H0 Z" fill="url(#hill2)" opacity="0.9"/>
+  <path d="M0 600 Q 400 520 820 580 T 1440 560 V720 H0 Z" fill="url(#hill1)"/>
+  <!-- 차밭 이랑 라인 -->
+  <g stroke="#4faa77" stroke-width="2" opacity="0.35" fill="none">
+    <path d="M0 560 Q 400 490 820 545 T 1440 528"/>
+    <path d="M0 590 Q 420 515 840 572 T 1440 552"/>
+    <path d="M0 622 Q 440 545 860 600 T 1440 580"/>
+    <path d="M0 656 Q 460 578 880 632 T 1440 612"/>
+  </g>
+</svg>

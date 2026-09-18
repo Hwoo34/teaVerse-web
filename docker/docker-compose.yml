@@ -1,0 +1,24 @@
+services:
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    image: tea-ai-agent-dev:latest
+    container_name: tea-ai-dev
+    working_dir: /workspace
+    volumes:
+      # 프로젝트 루트를 컨테이너에 마운트 (docker/ 의 상위 디렉토리)
+      - ../:/workspace
+      # node_modules 는 호스트와 분리하여 성능/호환성 확보
+      - frontend_node_modules:/workspace/frontend/node_modules
+    environment:
+      AWS_DEFAULT_REGION: ${AWS_DEFAULT_REGION:-us-east-1}
+      AWS_ACCESS_KEY_ID: ${AWS_ACCESS_KEY_ID:-}
+      AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY:-}
+    ports:
+      - "5173:5173"   # Vite dev server
+      - "8000:8000"   # 백엔드(로컬 에이전트 API) dev server
+    command: sleep infinity
+
+volumes:
+  frontend_node_modules:
